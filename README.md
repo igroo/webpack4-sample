@@ -56,7 +56,7 @@ terminal 2
 npm run start
 ```
 
-## webpack-dev-server 를 사용하지 못한 이유.
+## webpack-dev-server 를 사용하지 못한 이유..
 
 1) webpack-dev-server --inline --hot --open --mode development
     - 속도는 빠르다.
