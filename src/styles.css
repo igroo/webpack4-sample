@@ -1,0 +1,6 @@
+body {
+    line-height: 2;
+    background-color: red; 
+    background-image: url('/assets/images/sample.png');
+    background-repeat: repeat;
+}

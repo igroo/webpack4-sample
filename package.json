@@ -1,0 +1,40 @@
+{
+  "name": "webpack4-sample",
+  "version": "1.0.0",
+  "description": "```\r npm init -y\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server -c webpack4-bs-config.json",
+    "watch": "webpack --config webpack.config.js -p --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igroo/webpack4-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igroo/webpack4-sample/issues"
+  },
+  "homepage": "https://github.com/igroo/webpack4-sample#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.1.0",
+    "lite-server": "^2.3.0",
+    "mini-css-extract-plugin": "^0.2.0",
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
