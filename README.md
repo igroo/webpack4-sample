@@ -42,7 +42,7 @@ copy-webpack-plugin 으로 일반폴더를 dist 로 복사한다.
 
 html-loader 를 사용한다.
 
-mini-css-extract-plugin 으로 css를 읽어 드린다.
+mini-css-extract-plugin 으로 CSS를 별도의 파일로 추출한다.
 
 ## 실행
 
@@ -75,3 +75,5 @@ npm run start
 1) css background-image: url('test.jpg') -> 빌드 에러남. -> publicPath: '/'
 
 2) ExtractTextPlugin 을 사용하면 error 발생한다. 먼지 모르겠다.
+
+3) bundle1.js , bundle2.js 는 보통 bundle.js 하나만 있으면되고, 혹시 index1.html, index2.html 처럼 각페이지별 bundle.js 가 필요한 경우를 생각하여 추가 하였다.
